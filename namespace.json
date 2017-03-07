@@ -1,0 +1,18 @@
+{
+    "CustomersCustomers": {
+        "namespace": "Customers\\Customers",
+        "controller": "CustomersController"
+    },
+    "CustomersCategories": {
+        "namespace": "Customers\\Categories",
+        "controller": "CategoriesController"
+    },
+    "CustomersProjects": {
+        "namespace": "Customers\\Projects",
+        "controller": "ProjectsController"
+    },
+    "CustomersProjectsImages": {
+        "namespace": "Customers\\Projects\\Images",
+        "controller": "ImagesController"
+    }
+}

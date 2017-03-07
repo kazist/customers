@@ -1,0 +1,10 @@
+{
+    "name": "customers",
+    "title": "Customers Listing",
+    "explanation": "Customers Listing",
+    "description": "Customers Listing",
+    "version": 1,
+    "icon": "assets\/customers\/addons\/customers\/icon.png",
+    "extension": "addon",
+    "path": "customers\/addons\/customers\/"
+}

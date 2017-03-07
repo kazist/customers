@@ -1,0 +1,16 @@
+
+{{ set_assets('applications/Customers/Addons/Projects/assets/css/style.css') }}
+
+{% if projects|length > 0 %}
+    {% for project in projects %}
+
+        <div class="col-sm-4">
+            <div class="customer-project">
+                <a href="{{ generate_url('customers.projects.detail', {'id':project.id}) }}" title="{{ project.title }}">
+                    <img src="{{ resized_image(project.main_image_file, 300, null, 'fit') }}">
+                </a>
+                <div class="clr"></div>
+            </div>
+        </div>
+    {% endfor %}
+{% endif %}

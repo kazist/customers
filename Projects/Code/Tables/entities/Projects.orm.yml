@@ -1,0 +1,67 @@
+Customers\Projects\Code\Tables\Projects:
+  table: customers_projects
+  type: entity
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fields:
+    title:
+      name: title
+      type: string
+      length: 255
+      nullable: false
+    category_id:
+      name: category_id
+      type: integer
+      length: 11
+      nullable: false
+    customer_id:
+      name: customer_id
+      type: integer
+      length: 11
+      nullable: false
+    description:
+      name: description
+      type: text
+      nullable: false
+    main_image:
+      name: main_image
+      type: integer
+      length: 11
+      nullable: false
+    published:
+      name: published
+      type: integer
+      length: 11
+      nullable: false
+    created_by:
+      name: created_by
+      type: integer
+      length: 11
+      nullable: false
+    date_created:
+      name: date_created
+      type: datetime
+      nullable: false
+    modified_by:
+      name: modified_by
+      type: integer
+      length: 11
+      nullable: false
+    date_modified:
+      name: date_modified
+      type: datetime
+      nullable: false
+  indexes:
+    category_id_index:
+      columns: [category_id]
+    customer_id_index:
+      columns: [customer_id]
+  lifecycleCallbacks:
+    prePersist:
+      - onPrePersist
+      - onPrePersistCallbacks
+    preUpdate:
+      - onPreUpdate
+      - onPreUpdateCallbacks

@@ -1,0 +1,13 @@
+{
+    "name": "customers",
+    "title": "Customers",
+    "explanation": "Customers",
+    "description": "Customers",
+    "version": 5,
+    "has_view": "1",
+    "tie_field": "0",
+    "email_on_new": "0",
+    "email_on_edit": "0",
+    "email_on_delete": "0",
+    "date_file_modified": "2016-07-28 19:06:14"
+}
