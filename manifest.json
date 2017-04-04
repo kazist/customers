@@ -1,9 +1,9 @@
 {
-    "name": "customers",
+    "name": "kazist/customers",
     "title": "Customers List",
     "icon": "assets\/customers\/customers\/icon.png",
     "extension": "component",
-    "path": "customers\/",
+    "path": "applications/Customers/",
      "is_core": "0",
     "description": "Customers List"
 }
