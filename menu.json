@@ -2,23 +2,26 @@
     "title": "Customers",
     "description": "Customers",
     "alias": "customers",
-    "icon": "fa-bar-chart",
-        "home_link": "customers\/customers",
+    "icon": "fa fa-users",
+    "home_link": "customers\/customers",
     "is_core": "1",
     "menulist": [{
             "title": "Customers",
             "alias": "admin_customers_customers",
             "url": "admin/customers/customers",
+            "icon": "fa fa-users",
             "children": []
         }, {
             "title": "Categories",
             "alias": "admin_customers_categories",
             "url": "admin/customers/categories",
+            "icon": "fa fa-navicon",
             "children": []
         }, {
             "title": "Projects",
             "alias": "admin_customers_projects",
             "url": "admin/customers/projects",
+            "icon": "fa fa-wrench",
             "children": []
         }]
 }
